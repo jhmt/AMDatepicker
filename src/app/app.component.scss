@@ -1,0 +1,41 @@
+@import '~@angular/material/theming';
+
+md-datepicker-content {
+
+    font-family: "Story Sans, Helvetica Neue, Helvetica, Arial, Sans-serif";
+    font-size: 14px; /* 14px */
+    color: #a3aaba; /* rgba(0,0,0,.87); */
+
+    .mat-calendar-body-cell-content {
+        left: 15% !important; /* 5% */
+        width: 70% !important; /* 90% */
+        height: 70% !important; /* 90% */
+        border-radius: 3px !important; /* 50%; */
+    }
+
+    .mat-calendar-previous-button {
+        &:after{
+            border-color: #33cc91 !important;
+        }
+    }
+
+    .mat-calendar-next-button {
+        &:after{
+            border-color: #33cc91 !important;
+        }
+    }
+
+    .mat-calendar-body-selected {
+        background-color: #738297; /* #3f51b5; */
+        color: #fff; /* hsla(0,0%,100%,100); */
+    }
+
+    .mat-calendar-table-header th {
+        font-size: 10px;
+    }
+
+    .mat-calendar-body-label {
+        color: #9B9B9B; /* rgba(0,0,0,.54); */
+        font-size: 14px;
+    }
+}
